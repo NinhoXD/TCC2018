@@ -1,0 +1,6 @@
+APLICATIVO: Mapa da Saúde
+SEMELHANÇAS: -possui mapa
+	     -possui informações sobre especialidades e os sobre o hospital, tais como horario de funcionamento	    
+DIFERENÇAS: -é disponivel apenas para IOS 
+            -nosso app tem localização da dor no corpo 
+DUVIDAS: -se possui sugestão de rotas
