@@ -12,6 +12,8 @@ Map Icons		Published by Scott de Jonge	Map Icons				FlatIcon
 Transport		Published by Nikita Golubev	Transport				FlatIcon
 Pegadas			Published by Freepik		FootPrints				FlatIcon
 Return			Published by Smashicons		Arrow Collection			FlatIcon
-
+Return			Published by Smartline		Arrow					FlatIcon
+Question		Published by Roundicons		Audio And Video Controls		FlatIcon
+Avatar			Published by Nikita Golubev	People					FlatIcon
 
 Icones Info		Icon8				Info					Icon8
