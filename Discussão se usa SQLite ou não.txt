@@ -1,0 +1,59 @@
+Qual o tema dessa discussão?
+	Se vai usar o SQLite ou não.
+
+Observação importante 1: Se usar o SQLite, ainda deverá usar no servidor MySql da mesma forma porque é necessário que as informações de estatísticas e cadastro de usuários sejam efetuadas. Sendo assim, se ter que programar com SQLite, o sistema deverá ter dois bancos de dados
+Observação importante 2: O sistema é o conjunto de aplicativos Front com o Back
+Observação importante 3: Algumas informações podem ser irrelevantes se o pessoal não possuir a intenção de dar continuidade no desenvolvimento após a entrega do TCC
+
+Para que usar o SQLite na aplicação Frontend? Qual benefício isso traria?
+	Para que a aplicação possa funcionar offline porque muitos dos possíveis usuários (provavelmente a maioria) seriam pobres e não teriam condições para ter uma internet móvel decente então eles baixariam a nossa aplicação por wifi e poderiam usar offline
+
+Controvérsias:
+	A aplicação seria completamente offline?
+		Não, não porque a api do Google Maps ainda iria precisar de internet para funcionar (a não ser que o usuário configure, porém não é tão comum e consome uns 500Mb ou mais)
+	A maioria dos usuarios não teriam internet móvel decente?
+		A maioria dos brasileiros hoje em dia não possuem computadores Desktop, porém possuem celular e em muitos casos com pacotes imensos de internet (mas reboco na casa não tem, prioridades)
+	O sistema ainda iria precisar de um servidor online que possui outro banco de dados como MySql para fazer funções estatísticas e cadastro de usuários
+
+Vantagens:
+	A aplicação pode ficar offline sem uso de dados (É possível que a banca observe isso como um fator positivo)
+	A maior parte do grupo de tcc possui conhecimento sobre Android (mas não de SQLite)
+	Se o celular é de última geração a consulta será mais rápida do que pela internet
+
+Desvantagens:
+	O tamanho do aplicativo iria crescer bastante (imagine baixar os dados de endereço de todos os hospitais e unidades do brasil?) (É possível que a banca observe isso como um fator negativo)
+	Aumento de complexidade do aplicativo Android aumentando junto esses problemas
+		Manutenibilidade muito prejudicada
+		Desenvolvimento Android mais difícil
+		Trabalho em equipe prejudicado
+	
+	Foge dos padrões de microserviços (REST) (É possível que a banca observe isso como um fator negativo)
+	Forte acoplamento com sistema Android tornando difícil migração ou expansão para outras plataformas como (iOS, Web, Desktop)
+	Se o celular for de pobre (maioria dos nossos usuários) a consulta será mais lenta do que pela internet (em casos extremos nem será possível) pelo custo de processamento do celular (que não foram feitos para ter banco de dados próprio, SQLite só foi criado para armazenamento simples)
+
+Sem o uso do SQLite ==================================
+Observação: É possível que o consumo de internet do aplicativo como são requisições simples e respostas simples seja baixo
+
+Vantagens:
+	Descentralização do código, o desenvolvimento da aplicação Android fica mais fácil
+	Facilidade de expanção do aplicativo para outras plataformas como (iOS, Web, Desktop)
+	Como o sistema é baseado em microserviços a Manutenibilidade é muito mais fácil (tanto Back quanto Front)
+	Aplicativo mais leve (não há necessidade de baixar um banco de dados de todas regiões)
+	Não consome muito processamento do celular (no caso não prejudica os celulares de pobres)
+	Padrões de última geração (É possível que a banca observe isso como um fator positivo)
+
+Desvantagens:
+	Necessidade de internet para o uso (É possível que a banca observe isso como um fator negativo)
+	Somente o Andrei do grupo possui conhecimento de como construir o Backend
+
+
+
+
+
+
+
+
+
+
+
+

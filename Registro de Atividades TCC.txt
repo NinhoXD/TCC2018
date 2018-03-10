@@ -6,13 +6,13 @@ Integrante		Tarefa						Data	Hora Início	Hora Término
 Willian			Desenvolvimento da Guia de Estilo		26/02	16:00		19:00
 Willian			Desenvolvimento da Guia de Estilo		27/02	08:00		11:30
 Willian			Protótipos da Interface (UI)			05/03	20:00		01:00
+Willian			Criação do Repositório no Git			06/03	06:00		07:00
 	
 
 
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
-ANDREI
-
+Andrei ?		Estudo de Tecnologias Backend pelo Udemy.com	23/02	12:00		--
 
 
 
