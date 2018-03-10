@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Saúde Mais</string>
+    <string name="responda_as_questoes">Responda as questões a seguir:</string>
+    <string name="indicacao">Indicação</string>
+    <string name="especializacoes">Especializações</string>
+    <string name="unidades_de_saude">Unidades de Saúde</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastre_se_e_nos_ajude">Cadastre-se e nos ajude a melhorar a saúde de São Paulo</string>
+    <string name="houve_fratura">Houve fratura?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="indique_local_desconforto">Indique o local do desconforto</string>
+    <string name="title_activity_teste">Teste</string>
+    <string name="corpo_todo">Corpo todo</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="exame">Exame</string>
+    <string name="title_activity_unidades_saude">Map</string>
+</resources>
