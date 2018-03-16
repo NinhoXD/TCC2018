@@ -16,14 +16,14 @@
         android:layout_marginTop="60dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imgButtonExame"
         app:layout_constraintHorizontal_bias="0.307"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@mipmap/especializacao_round" />
 
     <ImageButton
-        android:id="@+id/imgUnidadesSaude"
+        android:id="@+id/imgButtonUnidadesSaude"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="8dp"
@@ -32,22 +32,23 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.307"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/imgButtonExame"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/unidades_de_saude" />
 
     <ImageButton
-        android:id="@+id/imgIndicacao"
+        android:id="@+id/imgButtonIndicacao"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@mipmap/indicacao_round"
-        tools:layout_editor_absoluteY="68dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/indicacao_round" />
 
     <TextView
         android:id="@+id/textView"
@@ -61,7 +62,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgIndicacao" />
+        app:layout_constraintTop_toBottomOf="@+id/imgButtonIndicacao" />
 
     <TextView
         android:id="@+id/textView2"
@@ -86,11 +87,11 @@
         android:text="@string/unidades_de_saude"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
-        app:layout_constraintStart_toStartOf="@+id/imgUnidadesSaude"
-        app:layout_constraintTop_toBottomOf="@+id/imgUnidadesSaude" />
+        app:layout_constraintStart_toStartOf="@+id/imgButtonUnidadesSaude"
+        app:layout_constraintTop_toBottomOf="@+id/imgButtonUnidadesSaude" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -116,15 +117,17 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imgButtonExame"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
         app:srcCompat="@mipmap/raiox_costelas_round" />
 
     <TextView
@@ -136,6 +139,6 @@
         android:text="@string/exame"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
-        app:layout_constraintStart_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        app:layout_constraintStart_toStartOf="@+id/imgButtonExame"
+        app:layout_constraintTop_toBottomOf="@+id/imgButtonExame" />
 </android.support.constraint.ConstraintLayout>
